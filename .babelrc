@@ -1,0 +1,20 @@
+/*
+* .babelrc
+*
+* This is the config file for the babel js transpiler!
+*
+* Babel is used to "transpile" (convert source code from one language to the
+* source code of another language) certain javascript syntaxes to a browser
+* runable syntax.
+*
+* In this case we're using the React preset for JSX support and the ES2015
+* preset for a nicer development syntax.
+*/
+
+{
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ]
+}
